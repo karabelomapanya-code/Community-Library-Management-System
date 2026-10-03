@@ -1,16 +1,60 @@
-# React + Vite
+# 📚 Community Library Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A web-based Community Library Management System built with React.
 
-Currently, two official plugins are available:
+## 📌 Project Description
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This system helps a community library manage books, users, availability, and borrowing transactions.
 
-## React Compiler
+The application provides a simple interface for librarians and administrators to manage library activities.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the ESLint configuration
+- 🔐 User login system
+- 👥 User management
+- 📚 Add, edit, and delete books
+- 📦 Track available book copies
+- 🔄 Borrow and return books
+- ⚠️ Low-stock book detection
+- 📊 Dashboard with library statistics
+- 📝 Transaction history
+- 👤 Role-based access control
+- 💾 Local Storage data persistence
+- 📱 Responsive interface
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 👤 User Roles
+
+### Administrator
+- View dashboard
+- Manage books
+- Manage transactions
+- Manage users
+
+### Librarian
+- View dashboard
+- Manage books
+- Manage transactions
+
+### Member
+- View dashboard
+- View books
+
+## 🛠️ Technologies Used
+
+- React
+- JavaScript
+- HTML
+- CSS
+- React Router
+- Local Storage
+- Vite
+
+## ▶️ How to Run the Project
+
+1. Clone the repository.
+2. Open the project folder in VS Code.
+3. Open the terminal.
+4. Install the dependencies:
+
+```bash
+npm install
